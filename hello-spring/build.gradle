@@ -14,11 +14,15 @@ java {
 }
 
 repositories {
+	// 라이버르러 다운받는 메서드
+	
 	mavenCentral()
 }
 
 dependencies {
+	// 다운받은 라이브러리들
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+	// 이 라이브러리에 톰캣 내장
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'

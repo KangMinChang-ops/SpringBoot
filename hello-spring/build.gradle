@@ -32,4 +32,5 @@ dependencies {
 
 tasks.named('test') {
 	useJUnitPlatform()
+	jvmArgs '-Share:off' // JVM 아규먼트 설정
 }
